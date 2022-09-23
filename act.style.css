@@ -1,0 +1,57 @@
+li{
+    float: left;
+    align-content: center;
+   
+}
+
+li a{
+    display: block;
+    padding: 20px;
+    color: wheat;
+    text-align: center;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 21, 2);
+    overflow: hidden;
+
+    position: sticky;
+    top: 0;
+}
+
+.active{
+    background-color: black;
+    color: wheat;
+}
+
+li a:hover:not(.active){
+    background-color:rgb(105, 74, 15)
+}
+
+#text-color{
+    color: lightgreen;
+}
+
+.text-class{
+    color: violet;
+}
+
+.footer-style p {
+    background-color: aqua;
+}
+
+section:hover{  
+    background-color: yellow;
+}
+
+hgroup:hover{
+    background-color: brown;
+}
+
+section p{
+    color: blue;
+}
